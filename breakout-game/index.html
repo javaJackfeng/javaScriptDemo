@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>打砖块游戏</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>打砖块游戏</h1>
+  <button id="rule-button">
+    阅读规则
+  </button>
+  <div id="rules">
+    <h2>游戏规则</h2>
+    <p>使用左右键移动挡板，尽可能接住掉落的球体； 球体被接住后，会弹到上方，打碎上面的砖块。</p>
+    <p>如果没有接到掉落的球体，那么您的分数会清零，所有砖块将会还原。</p>
+    <button id="close-button">关闭</button>
+  </div>
+
+  <canvas id="canvas" width="800" height="600"></canvas>
+
+  <script src="./index.js"></script>
+</body>
+</html>
